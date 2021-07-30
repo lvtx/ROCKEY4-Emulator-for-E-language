@@ -1,0 +1,17 @@
+;-------------------------------------------------------------------------------------
+;                              olepro32.Def
+;-------------------------------------------------------------------------------------
+LIBRARY	OLEPRO32.DLL
+
+EXPORTS	OleIconToCursor @248
+EXPORTS	OleCreatePropertyFrameIndirect @249
+EXPORTS	OleCreatePropertyFrame @250
+EXPORTS	OleLoadPicture @251
+EXPORTS	OleCreatePictureIndirect @252
+EXPORTS	OleCreateFontIndirect @253
+EXPORTS	OleTranslateColor @254
+
+EXPORTS	DllCanUnloadNow @255
+EXPORTS	DllGetClassObject @256
+EXPORTS	DllRegisterServer @257
+EXPORTS	DllUnregisterServer @258
